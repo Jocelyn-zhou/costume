@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>新建会员</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="../dist/js/html5shiv.js"></script>
+        <script src="../dist/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <div class="text-center logo"><img src="../dist/images/logo.png" width="30px" alt=""></div>
+                    <div class="logo-text"><span>会员管理后台</span></div>
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+            <ul class="nav navbar-top-links navbar-right">
+                <!-- /.dropdown -->
+                <li><span>欢迎您,</span><span class="nickname"></span></li>
+                <li><a href="#" class="out"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
+            </ul>
+
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse" id="sidebar-height">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="../index.html" class="active"><i class="fa fa-dashboard fa-fw"></i> 会员列表</a>
+                        </li>
+                        <li>
+                            <a href="integral.html"><i class="fa fa-star fa-fw"></i> 积分列表</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">新建会员</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12 service-div">
+                    <div><span>会员卡号：</span><input type="text" name="c_number" class="service-input" id="c_number" placeholder="请输入会员卡号"></div>
+                    <div><span>会员姓名：</span><input type="text" name="n_name" class="service-input" id="c_name" placeholder="请输入会员姓名"></div>
+                    <div><span>会员电话：</span><input type="text" name="c_tel" id="c_tel" class="service-input" placeholder="请输入电话号码"></div>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12 col-md-1">
+                    <button class="btn btn-default" id="save">&nbsp;&nbsp;保&nbsp;&nbsp;存&nbsp;&nbsp;</button>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../vendor/raphael/raphael.min.js"></script>
+    <!--<script src="../vendor/morrisjs/morris.min.js"></script>-->
+    <!--<script src="../data/morris-data.js"></script>-->
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <!--logout-->
+    <script src="../dist/js/common.js"></script>
+    <script src="../dist/js/layer/layer.js"></script>
+    <script src="../dist/js/card_add.js"></script>
+</body>
+
+</html>
